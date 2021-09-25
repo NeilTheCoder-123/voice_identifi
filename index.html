@@ -1,0 +1,62 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body style="background-image: linear-gradient(blue, red);">
+      <center>
+        <div class="col-xs-12">
+          <h2 style="color: antiquewhite;" class="header">SOUND IDENTIFI ALIEONIC</h2>
+          <h3 style="color: bisque;" class="sub-header">Let's identify sound alieonically.</h3>
+          <h5 style="color: aliceblue;" class="sub-sub-header">Note: Sound Identifi can identify (alienocally) background noises, claps, snaps and door bells only.</h5>
+          <div class="maindiv">
+            <button class="pushable" onclick="st_classification();">
+              <span class="shadow"></span>
+              <span class="edge"></span>
+              <span class="front">
+                START!
+              </span>
+            </button>
+          
+          <br><br>
+          <div>
+          <label style="font-size: x-large; color: blanchedalmond;" class="output" id="res_label">I can hear - </label>
+          </div>
+          <br>
+          <div>
+          <label style="font-size: x-large; color: blanchedalmond;" class="output" id="acu_label">Accuracy - </label>
+          </div>
+          </div>
+          <img src="aliens-01.png" style="width: 20%;" id="alien1">
+          <span><img src="aliens-02.png" style="width: 20%;" id="alien2"></span>
+          <span><img src="aliens-03.png" style="width: 20%;" id="alien3"></span>
+          <span><img src="aliens-04.png" style="width: 20%;" id="alien4"></span>
+        </div>
+      </center>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
